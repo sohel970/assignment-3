@@ -147,26 +147,26 @@
           Explore diverse program sections, each tailored to specific interests. From educational workshops to engaging
           entertainment, <br> our sections offer a range of experiences for everyone. Discover your passion!</p>
       </div>
-      <div class="text-white mt-12 w-full grid gap-6 lg:grid-cols-2">
+      <div class="text-white mt-12 w-full grid gap-6 grid-cols-1 lg:grid-cols-2">
       <div class="">
-        <div class="bg-[url('/Images/2.png')] w-full object-cover bg-no-repeat opacity-90 p-5	lg:p-20">
+        <div class="bg-[url('/Images/2.png')] w-full rounded-lg  bg-cover bg-center bg-no-repeat opacity-90 p-5	lg:p-20">
           <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
           <p class="mb-5 text-base	font-medium">
             Our junior program caters to young minds, providing <br>  for learning, growth,  and fun. Explore educational activities</p>
             <a class="btn border-none bg-[#FF4240] text-white px-6 py-4">Register Now!</a>
          </div>
       </div >
-       <div class="object-cover w-full">
-        <div class=" bg-[url('/Images/3.png')] w-full opacity-90 bg-no-repeat	p-5 	lg:p-20 ">
+       <div>
+        <div class=" bg-[url('/Images/3.png')] w-full rounded-lg opacity-90 bg-cover bg-center bg-no-repeat	p-5 	lg:p-20 ">
           <h1 class="mb-5 text-3xl font-extrabold">Teenager Program</h1>
           <p class="mb-5 text-base	font-medium">
             Our junior program caters to young minds, providing <br>  for learning, growth,  and fun. Explore educational activities</p>
             <a class="btn border-none	 bg-[#FF4240] text-white px-6 py-4">Register Now!</a>
          </div>
        </div>
-      <div class=" object-cover  w-full lg:col-span-2 ">
-        <div class=" bg-[url('/Images/4.png')] w-full bg-no-repeat opacity-90	p-5	lg:p-20">
-         <div class="mt-40">
+      <div class="grid lg:col-span-2 ">
+        <div class=" bg-[url('/Images/4.png')] w-full rounded-lg opacity-90 bg-cover bg-center bg-no-repeat 	p-5	lg:p-20">
+         <div class="sm:mt-5 lg:mt-40">
           <h1 class="mb-5 text-3xl font-extrabold">Professional Program</h1>
           <p class="mb-5 text-base	font-medium">
             Our junior program caters to young minds, providing <br>  for learning, growth,  and fun. Explore educational activities</p>
@@ -190,7 +190,7 @@
       <div class="mt-12 grid gap-6 grid-cols-1 lg:grid-cols-2">
         <!-- item-1 -->
         <div class="p-6 rounded-2xl	border-solid border-2 border-gray-100 gap-4 lg:flex ">
-          <div class="object-contain">
+          <div class="object-contain ">
             <img src="Images/5.png" alt="">
           </div>
           <div class="flex-col">
@@ -444,41 +444,48 @@
     </div>
   </section>
   <!-- footer  -->
-  <footer class="p-36 bg-[#131318] grid justify-between grid-cols-4 lg:flex">
-    <div>
-      <h1 class="text-3xl	font-extrabold text-white">Get In Touch</h1>
-      <p class="text-[rgba(255, 255, 255, 0.60)] text-base font-medium">Dit amet consectetur. Condimentum <br>
-        adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
-      <p>hockeys@support.com</p>
-      <p>(+62) 123-321-543</p>
-    </div>
-    <div class="lg:flex justify-between">
-      <div>
-        <h3>Company</h3>
-        <p>About us</p>
-        <p>Leadership</p>
-        <p>Careers</p>
-        <p>News & Article</p>
-        <p>Legal Notice</p>
+  <footer class="">
+    <div class="continer bg-[#131318] p-24  gap-4 items-center   lg:flex justify-between p-24 ">
+      <div class="">
+        <h1 class="text-3xl	font-extrabold text-white">Get In Touch</h1>
+        <div class="text-slate-200 my-5 text-base font-medium">
+          <p >Dit amet consectetur. Condimentum <br>
+            adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+          <p class=" my-5 "><i class="fa-solid fa-inbox text-red-700 mr-3"></i>hockeys@support.com</p>
+          <p><i class="fa-solid fa-phone text-red-700 mr-3"></i>(+62) 123-321-543</p>
+        </div>
       </div>
-      <div>
-        <h3>Support</h3>
-        <p>Help Center</p>
-        <p>FAQ</p>
-        <p>Ticket Support</p>
-        <p>Contact Us</p>
+        <div class=" mt-8 lg:mt-0">
+          <h3 class="text-lg font-bold text-slate-200">Company</h3>
+         <div class="text-slate-200 my-5 text-base font-medium">
+          <p>About us</p>
+          <p class="my-3">Leadership</p>
+          <p>Careers</p>
+          <p class="my-3">News & Article</p>
+          <p>Legal Notice</p>
+         </div>
+        </div>
+        <div class=" mt-8 lg:mt-0">
+          <h3 class="text-lg font-bold text-slate-200">Support</h3>
+          <div >
+            <div class="text-slate-200 my-5 text-base font-medium">
+            <p>Help Center</p>
+          <p class="my-3">FAQ</p>
+          <p>Ticket Support</p>
+          <p class="mt-3" >Contact Us</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div>
-      <h3>Services</h3>
-      <p>Academy</p>
-      <p>Group Lesson</p>
-      <p>Private Lesson</p>
-      <p>Hockeys for kids</p>
-      <p>Hockeys for Adult</p>
-    </div>
-    <div>
-
+      <div class=" mt-8 lg:mt-0">
+        <h3 class="text-lg font-bold text-slate-200">Services</h3>
+        <div class="text-slate-200 my-5 text-base font-medium">
+          <p>Academy</p>
+        <p class="my-3">Group Lesson</p>
+        <p>Private Lesson</p>
+        <p class="my-3">Hockeys for kids</p>
+        <p>Hockeys for Adult</p>
+        </div>
+      </div>
     </div>
   </footer>
 
